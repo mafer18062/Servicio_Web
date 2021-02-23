@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.38, created on 2021-02-23 21:32:00
+/* Smarty version 3.1.38, created on 2021-02-23 21:35:48
   from 'C:\xampp\htdocs\Servicio_Web\View\Home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.38',
-  'unifunc' => 'content_603566404b9f08_27451029',
+  'unifunc' => 'content_60356724c8ae70_09073575',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b31a78da2095da6426da2b0fa075675591669360' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Servicio_Web\\View\\Home.tpl',
-      1 => 1614112316,
+      1 => 1614112545,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_603566404b9f08_27451029 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60356724c8ae70_09073575 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -30,9 +30,9 @@ $_smarty_tpl->_subTemplateRender("file:Cabeceras/Header.tpl", $_smarty_tpl->cach
 
       <body bgcolor="#a7ffeb">
  
-
-    <ul class="collection with-header">
-        <li class="collection-header"><h4 align="center"style="color:#7e57c2">INGRESE SUS DATOS</h4></li>
+    <div> 
+      <h4 align="center"style="color:#7e57c2">INGRESE SUS DATOS</h4>
+    </div>
 
 
  <form class="col s4">

@@ -4,9 +4,9 @@
 
       <body bgcolor="#a7ffeb">
  
-
-    <ul class="collection with-header">
-        <li class="collection-header"><h4 align="center"style="color:#7e57c2">INGRESE SUS DATOS</h4></li>
+    <div> 
+      <h4 align="center"style="color:#7e57c2">INGRESE SUS DATOS</h4>
+    </div>
 
 
  <form class="col s4">
