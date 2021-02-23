@@ -19,11 +19,5 @@
 
             
         }
-
-        public function Fin()
-        {
-            $this->smarty->assign('title',"FIN");
-            $this->smarty->display('Fin.tpl');   
-        }
     }
 ?>
