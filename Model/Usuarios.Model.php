@@ -11,7 +11,7 @@
 
     public function BuscarUser($user, $pass)
     {
-      $sql=="SELECT * FROM `blogusuario` WHERE `Correo`='$user' AND`Pass`='$pass';";
+      $sql="SELECT * FROM `blogusuario` WHERE `Correo`='$user' AND`Pass`='$pass';";
 
       $consulta=$this->con->query($sql);
       $this->con->close();
