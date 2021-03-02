@@ -3,32 +3,39 @@
   class User
   {
     public $user;
-    //public $smarty; 
+    public $blog;
+    //public $smarty;
 
     public function __construct()
     {
       $this->user=new Usuarios();
+      //$this->user=new Bienvenidos();
       //$this->smarty=new Smarty();
-    
     }
-
-    //public function __construct()
-    //{
-      //$this->smarty->assign('title','Login');
-     // $this->smarty->display (Login.tpl);
-    
-    //}
     public function BuscarUsuario()
     {
-      //$email=$_POST['email'];
-      //$pass=$_POST['pass'];
+      $correo=$_POST['correo'];
+      $pass=$_POST['pass'];
 
-
-      //$us=$this->user->BuscarUser($email,$pass);
-
-      $us=$this->user->BuscarUser("201900040@colsanjose.edu.gt","123456789");
+      $us=$this->user->BuscarUser($correo,$pass);
 
       var_dump($us);
+
+      //$consulta=mysqli_fetch_assoc($us);
+      
+//echo "<br/><br/>";
+
+     // var_dump($consulta);
+
+      //echo "<br/><br/>";
+
+      //echo "correo: ".$consulta['Correo'];
+     
+      //$this->smarty->assing('DatoUser',$consulta);
+
+
     }
+
   }
+  
 ?>
