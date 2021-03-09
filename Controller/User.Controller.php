@@ -3,14 +3,16 @@
   class User
   {
     public $user;
-    public $blog;
-    //public $smarty;
+   // public $registro;
+    //public $blog;
+    public $smarty;
 
     public function __construct()
     {
       $this->user=new Usuarios();
+     // $this->user=new Registros();
       //$this->user=new Bienvenidos();
-      //$this->smarty=new Smarty();
+      $this->smarty=new Smarty();
     }
     public function BuscarUsuario()
     {
@@ -35,7 +37,22 @@
 
 
     }
+    public function Registrarse()
+    {
+      $this->smarty->assign=('title','Registro');
+      $this->smarty->display=('Registrarse.tpl');
+    }
 
-  }
+   // public function Registrarse()
+   // {
+    //  $correo=$_POST['correo'];
+    //  $pass=$_POST['pass'];
+
+    //  $registro=$this->user->Registrarse($correo,$pass);
+
+     // var_dump($us);
+
+ // }
+}
   
 ?>

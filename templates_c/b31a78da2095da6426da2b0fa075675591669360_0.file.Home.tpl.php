@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.38, created on 2021-03-02 14:04:49
+/* Smarty version 3.1.38, created on 2021-03-09 00:34:53
   from 'C:\xampp\htdocs\Servicio_Web\View\Home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.38',
-  'unifunc' => 'content_603e37f1e8a044_58107217',
+  'unifunc' => 'content_6046b49d48b520_99722797',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b31a78da2095da6426da2b0fa075675591669360' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Servicio_Web\\View\\Home.tpl',
-      1 => 1614689855,
+      1 => 1615246489,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:Cabeceras/Footer.tpl' => 1,
   ),
 ),false)) {
-function content_603e37f1e8a044_58107217 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6046b49d48b520_99722797 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:Cabeceras/Header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -31,19 +31,18 @@ $_smarty_tpl->_subTemplateRender("file:Cabeceras/Header.tpl", $_smarty_tpl->cach
     <div class="row">
       <nav class="purple lighten-3">
         <div class="nav-wrapper">
-      <a href="#" class="brand-logo right">Registrarse</a>
+      <a href="#" class="brand-logo right">Registrarse</a>  
       </nav>
 </div>
-      
 
-    <div>  
-      <h4 align="center"style="color:#7e57c2">INGRESE SUS DATOS</h4>  
-    </div>
+      <div>
+          <h4 align="center"style="color:#7e57c2">INGRESE SUS DATOS</h4> 
+      </div>
 
 <div class="row">  
   <div class="col s3"></div>
     <div class="col s8 offset-s2 center-align">
-        <img src="./Recursos/Implema.png" width="300">
+        <img src="./Recursos/Implema.png" width="230">
    </div>
 </div>
  
@@ -67,17 +66,16 @@ $_smarty_tpl->_subTemplateRender("file:Cabeceras/Header.tpl", $_smarty_tpl->cach
         <!-- CHANGED THE DIV BELOW (Changed size to col s8 offset-s1 
         to match the divs above and added center-align -->
         <div class="col s10 offset-s1 center-align">
-            <button class="btn waves-effect waves-light" type="Ingresar" name="action">
-                Ingresar
+            <button class="btn waves-effect waves-light" type="Iniciar Sesión" name="action">
+                Iniciar Sesión
                 <i class="material-icons right">send</i>
             </button>
-        </div>
+          </div>
+       </div>
+    </form>
     </div>
-        </form>
-  </div>
-  </body>  
-
-
+    </body>  
+      
 <?php $_smarty_tpl->_subTemplateRender("file:Cabeceras/Footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 }
 }

@@ -5,19 +5,18 @@
     <div class="row">
       <nav class="purple lighten-3">
         <div class="nav-wrapper">
-      <a href="#" class="brand-logo right">Registrarse</a>
+      <a href="#" class="brand-logo right">Registrarse</a>  
       </nav>
 </div>
-      
 
-    <div>  
-      <h4 align="center"style="color:#7e57c2">INGRESE SUS DATOS</h4>  
-    </div>
+      <div>
+          <h4 align="center"style="color:#7e57c2">INGRESE SUS DATOS</h4> 
+      </div>
 
 <div class="row">  
   <div class="col s3"></div>
     <div class="col s8 offset-s2 center-align">
-        <img src="./Recursos/Implema.png" width="300">
+        <img src="./Recursos/Implema.png" width="230">
    </div>
 </div>
  
@@ -41,15 +40,14 @@
         <!-- CHANGED THE DIV BELOW (Changed size to col s8 offset-s1 
         to match the divs above and added center-align -->
         <div class="col s10 offset-s1 center-align">
-            <button class="btn waves-effect waves-light" type="Ingresar" name="action">
-                Ingresar
+            <button class="btn waves-effect waves-light" type="Iniciar Sesión" name="action">
+                Iniciar Sesión
                 <i class="material-icons right">send</i>
             </button>
-        </div>
+          </div>
+       </div>
+    </form>
     </div>
-        </form>
-  </div>
-  </body>  
-
-
+    </body>  
+      
 {include file="Cabeceras/Footer.tpl"}
