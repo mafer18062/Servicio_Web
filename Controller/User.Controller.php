@@ -37,7 +37,7 @@
 
 
     }
-    public function Registrarse()
+    public function Registro()
     {
       $this->smarty->assign=('title','Registro');
       $this->smarty->display=('Registrarse.tpl');
